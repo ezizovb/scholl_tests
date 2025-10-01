@@ -1,0 +1,14 @@
+# Исключаем папку с изображениями
+/uploads
+
+# Исключаем папки с зависимостями
+/node_modules
+/backend/node_modules
+/frontend/node_modules
+
+# Исключаем скомпилированные файлы React (Build)
+/frontend/dist
+/frontend/build
+
+# Секретные файлы, если бы вы их использовали
+.env
